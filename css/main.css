@@ -392,7 +392,7 @@ Navbar
 .hero {
   height:40vh;
   width: 100%;
-  background: url(/assets/main.jpeg) center/cover no-repeat;
+  background: url(../assets/main.jpeg) center/cover no-repeat;
   margin-bottom: 2rem;
   position: relative;
   border-radius: var(--borderRadius);
