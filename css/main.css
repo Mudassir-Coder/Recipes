@@ -414,14 +414,19 @@ Navbar
   color: var(--white);
   text-align: center;
 }
-@media only screen and (max-width:768px){
-  .hero{
-    height: 30vh;
-  }
-}
-@media only screen and (min-width:768px) {
+
+@media only screen and (max-width:768px) {
   .hero-text h1,h2{
     margin: 0;
+  }
+  .hero-text h1{
+    font-size: 2rem;
+  }
+  .hero-text h2{
+    font-size: 0.5rem;
+  }
+  .hero{
+    height: 30vh;
   }
 
 }
